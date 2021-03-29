@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section:left {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+  background-color: #777;
+  length: 100%;
+  text-align: center;
+  color: white;
+
+
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+<h2><img align= "https://www.rd.com/wp-content/uploads/2017/10/These-Funny-Dog-Videos-Are-the-Break-You-Need-Right-Now_493370860-Jenn_C.jpg?resize=640,426" alt= "dogo" hight="100" width="200"></h2>
+</header>
+
+  <nav>
+    <ul>
+    <li><a herf= "index.html">Home</a></li>
+    <li><a href= "page1.html">Page1</a></li>
+    <li><a href= "page2.html">Page2</a></li>
+    <li><a href="https://www.columbusstate.edu/">CSU home page
+    </ul>
+  </nav>
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 850px;
+
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+
+<div class="row">
+  <div class="column left" style="background-color:lightblue;">
+    <h2>Tags I've learned</h2>
+    <p>
+      <li>1.Color</li>
+      <li>2.Image</li>
+      <li>3.Links</li>
+      <li>4.Tables</li>
+      <li>5.Formatting</li>
+    </p>
+    
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Attributes of the tags I've learned</h2>
+    <p>
+      <p>1.In HTML, a color can be specified by using a color name, you can set the background color for HTML elements, and you can set the color of text.</p>
+      <br>2.Images can improve the design and the appearance of a web page. The HTML img tag is used to embed an image in a web page.</br>
+
+      <br>3.Links are found in nearly all web pages. Links allow users to click their way from page to page. The HTML a tag defines a hyperlink. It has the following syntax, and By default, links will appear as follows in all browsers:
+
+<li>An unvisited link is underlined and blue</li>
+<li>A visited link is underlined and purple</li>
+<li>An active link is underlined and red</li>
+      <br>4.HTML tables allow web developers to arrange data into rows and columns.The <table> tag defines an HTML table.</br>
+      <br>5.HTML contains several elements for defining text with a special meaning.The HTML <b> element defines bold text, without any extra importance, and the HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</br>
+    </p>
+  </div>
+</div>
+<footer>
+  <p> &copy;
+    <a href= "url">email: heinzelman.christopher@gmail com</a> 
+<small> chris heinzelman</small>
+    </p>
+</footer>
+</body>
+</html>
